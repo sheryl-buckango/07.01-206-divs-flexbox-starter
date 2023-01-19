@@ -131,9 +131,8 @@ body {
 }
 
 .div-2{
-    border: solid 1px;
-    border-top: white;
-    border-bottom: white;
+    border-left:solid 1px white;
+    border-right:solid 1px white;
     padding-left: 20px;
     padding-right: 20px;
 }
