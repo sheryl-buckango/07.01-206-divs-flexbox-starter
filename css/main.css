@@ -11,11 +11,10 @@
    ========================================================================== */
 
 html {
-    color: #222;
+    color: white;
     font-size: 1em;
-    line-height: 1.4;
+     line-height: 1.4;
 }
-
 /*
  * Remove text-shadow in selection highlight:
  * https://twitter.com/miketaylr/status/12228805301
@@ -97,22 +96,35 @@ textarea {
 
 
 html {
-  background-color: black;
+  background-color: #222;
   height: 100%;
 }
 
 body {
-  font-family: 'Source Sans Pro', sans-serif;
   padding: 2em;
   font-size: 1.25em;
   height: 100%;
+  font-family: 'Times New Roman', Times, serif;  
+}
+h1{
+    font-size: 3em;
 }
 
+span{
+    font-size: 1.5em;
+}
+
+main{
+    border-bottom: solid white;
+    margin-bottom: 50px;
+}
 .wrapper {
   /*add display:flex and set justify-content to space-between*/
   display: flex;
   justify-content: space-between;
   font-weight: 700;
+  
+
 }
 
 .div-1, .div-2, .div-3 {
@@ -125,7 +137,7 @@ body {
   line-height: 1.5em;
   font-size: 1.5em;
   /*background-color: #f16059;*/
-  background-color: black;
+  background-color: #222;
   height: 300px;
   
 }
@@ -137,7 +149,15 @@ body {
     padding-right: 20px;
 }
 
+.fa-twitter, .fa-linkedin, .fa-github{
+    color: white;
+    text-decoration: none;
+  }
 
+footer{
+    margin-top: 50px;
+    border-top: solid white;
+}
 /* ==========================================================================
    Helper classes
    ========================================================================== */
